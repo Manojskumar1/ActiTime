@@ -17,8 +17,8 @@ public class TakeListPage {
 	private WebElement Descriptiontbx;
 	@FindBy(xpath="//div[.='- Select Customer -' and @class='emptySelection']")
 	private WebElement selectdropdown;
-	@FindBy(xpath="//div[.='Baroda' and @class='itemRow cpItemRow ']")
-	private WebElement ourcompany;
+	@FindBy(xpath="//div[.='Big Bang Company' and @class='itemRow cpItemRow ']")
+	private WebElement Bigbang;
 	@FindBy(xpath="//div[.='Create Customer']")
 	private WebElement createcustomerbtn;
 	
@@ -50,7 +50,7 @@ public class TakeListPage {
 	}
 
 	public WebElement getOurcompany() {
-		return ourcompany;
+		return Bigbang;
 	}
 
 	public WebElement getCreatecustomerbtn() {

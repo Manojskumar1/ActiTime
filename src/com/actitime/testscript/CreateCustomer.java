@@ -36,8 +36,7 @@ public class CreateCustomer extends BaseClass{
 		t.getSelectdropdown().click();
 		t.getOurcompany().click();
 		t.getCreatecustomerbtn().click();
-		int b=10;
-		int m=1/b;
+		
 		
 		Thread.sleep(5000);
 		
